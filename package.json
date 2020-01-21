@@ -54,12 +54,9 @@
   "scripts": {
     "lint": "eslint src",
     "lint-auto-fix": "eslint src --fix",
-    "env-node": "gulp env-node",
-    "storybook": "start-storybook",
-    "start": "npm run env-node && react-scripts start",
-    "start-local": "set REACT_APP_ENV=local&&set PORT=3002&& npm run start",
-    "start-local-linux": "export REACT_APP_ENV=local&&export PORT=3002&& npm run start",
-    "build": "npm run env-node && react-scripts build",
+    "start": "react-scripts start",
+    "start-local": "set PORT=3002&& npm run start",
+    "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom"
   },
   "devDependencies": {

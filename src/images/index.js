@@ -4,10 +4,7 @@ import PropTypes from 'prop-types';
 import React, { PureComponent } from 'react';
 
 // local dependencies
-import logo from './logo.svg';
-import upload from './upload.svg';
 import defImg from './def-image.svg';
-import settingsGif from './settings.gif';
 import defaultAvatar from './default_avatar.svg';
 
 export class DefImage extends PureComponent {
@@ -65,26 +62,5 @@ export const Avatar = props => <DefImage
     defaultTitle="User"
     defaultSrc={defaultAvatar}
     defaultStyle={{ borderRadius: '50%' }}
-    {...props}
-/>;
-
-export const CloudImage = props => <DefImage
-    defaultAlt="Upload to cloud"
-    defaultTitle="Upload to cloud"
-    defaultSrc={upload}
-    {...props}
-/>;
-
-export const SettingGif = props => <DefImage
-    defaultAlt="Settings"
-    defaultTitle="Settings"
-    defaultSrc={settingsGif}
-    {...props}
-/>;
-
-export const Logo = props => <DefImage
-    defaultAlt="RAD Dummy"
-    defaultTitle="RAD Dummy"
-    defaultSrc={logo}
     {...props}
 />;
