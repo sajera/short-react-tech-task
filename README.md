@@ -1,6 +1,6 @@
 # Short React Tech Task
  
-#### Time estimate: 2 hours - i am not finish but spend more time
+#### Time estimate: 2 hours
 **Description**
 We need to create a little messenger (chat) web application. The scope is limited to the screen which displays the message history between 2 users. The messages come from a JSON file which can be found below.
  
